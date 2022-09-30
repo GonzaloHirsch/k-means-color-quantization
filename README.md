@@ -11,3 +11,12 @@ The program can be run by simply using this command
 python main.py -f sample/cliff.jpg
 python main.py -f sample/house.jpg
 ```
+
+Clicking the "Save" button will compress the image into the custom format (saved under the `sample` directory).
+
+## Decompression
+
+In order to visualize the compressed image you can run
+```bash
+python compress.py -f sample/PATH_TO_IMAGE
+```
